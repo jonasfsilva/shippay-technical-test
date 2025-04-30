@@ -27,11 +27,9 @@
 - Faria testes de carga com Locust.io para validar suporte a 1.000 requisições por segundo com P99 de 30ms.
 - Usaria Prometheus + Grafana (ou outra ferramenta de observabilidade) para monitoramento de latência, uso de CPU, memória e throughput.
 - Testes a realizar:
-  - Teste de carga sustentada
   - Teste de estresse (aumentando o volume até falha)
-  - Teste de latência (P99)
-  - Teste de falha (parar e reiniciar o agendador)
-  - Teste de confiabilidade (verificar se eventos agendados não são perdidos ou duplicados)
+  - Teste de latência (no prórpio locust ou grafana acompanharia)
+  - Teste de caos (parar e reiniciar o agendador)
 
 ## Questão 5
     - O código está na pasta questao_5
