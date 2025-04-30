@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# pipenv
+Pipfile.lock
+
+# dotenv
+.env
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# SQLite DB files (opcional)
+*.sqlite3
+*.db
+
+# Migrations (caso use Flask-Migrate,

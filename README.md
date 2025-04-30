@@ -33,6 +33,16 @@
   - Teste de falha (parar e reiniciar o agendador)
   - Teste de confiabilidade (verificar se eventos agendados não são perdidos ou duplicados)
 
+## Questão 5
+    - O código está na pasta questao_5
+    - OBS: gostaria de ter feito com uma arquitetura melhor mas preferi entregar no tempo a tentar ser preciosista.
+
+    - Como rodar:
+        - pip install -r requirements.txt
+        - python app.py
+    - Como testar:
+        - python test_api.py
+
 ## Questão 6
 
 1. Variáveis e credenciais devem estar em um `config.ini` ou `.env`.
